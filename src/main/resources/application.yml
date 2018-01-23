@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-boot-admin-example
+  boot:
+    admin:
+      auth:
+        username: admin
+        password: 123456
+#management:
+#  security:
+#    enabled: false
+#security:
+#  basic:
+#    enabled: false
+server:
+  port: 8089
+  context-path: /
